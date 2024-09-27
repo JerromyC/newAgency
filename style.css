@@ -1,0 +1,82 @@
+@import url(./styles/hero.css);
+
+
+/* Mobile-first CSS */
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #8B0000;
+    --medium: #B22222;
+    --light: #E9967A;
+    --mainOne: #000000;
+    --mainTwo: #FFFFFF;
+    --vh: 100vh;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+
+nav {
+    position: relative;
+    padding: 1rem;
+    text-align: center;
+    z-index: 100;
+  }
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+
+.section {
+    padding: 20px;
+  }
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* Tablet Styles */
+  /* @media screen and (min-width: 450px) and (max-width: 768px) {
+.section {
+      padding: 40px;
+    }
+  } */
+
+  /* Desktop Styles
+  /* @media (min-width: 1024px) {
+    nav {
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem 5%;
+    }
+
+    nav a {
+      margin: 0 20px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .hero {
+      padding: 120px 60px;
+      background-color: green;
+    }
+  } */

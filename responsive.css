@@ -1,0 +1,24 @@
+/* Extra small devices (old smaller phones) */
+@media (max-width: 359px) {
+    /* Styles for very small phones (older devices like iPhone SE) */
+  }
+  
+  /* Small devices (iPhone 15, Galaxy S24, etc.) */
+  @media (min-width: 360px) and (max-width: 767px) {
+    /* Styles for modern smartphones */
+  }
+  
+  /* Medium devices (iPhone 15 Plus, Galaxy S24+ and larger) */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    /* Styles for larger smartphones and small tablets */
+  }
+  
+  /* Large devices (Galaxy Z Fold 5 main screen, iPads in landscape mode) */
+  @media (min-width: 1024px) and (max-width: 1440px) {
+    /* Styles for tablets and small laptops */
+  }
+  
+  /* Extra large devices (Desktop and beyond) */
+  @media (min-width: 1441px) {
+    /* Styles for desktops and large screens */
+  }
