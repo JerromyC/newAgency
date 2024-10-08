@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,61 +8,391 @@
   <title>Your Website</title>
   <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
 
   <!-- Navigation -->
   <nav>
-      <div class="vortex-container">
-        <img class="vortex_img" src="./assets/vortex/vortex-back_openDown.svg">
-        <img class="vortex_img" src="./assets/vortex/vortex-middle_openDown.svg">
-        <img class="vortex_img" src="./assets/vortex/vortex-front_openDown.svg">
-        <img class="vortex_img" src="./assets/vortex/vortex-dark_openDown.svg">
-      </div>
+
   </nav>
 
   <!-- Hero Section -->
-  <section class="hero">
+  <section id="hero" class="section main-section">
     <div class="grid">
-        <div class="grid-cell">
-            <h1>Small Business Web Design + Development + Marketing</h1>
-        </div>
-        <div class="grid-cell">
-            <p>Custom-Built Websites – No Templates or CMS – Tailored Solutions Starting at <span class="redText">$250/Month</span></p>
-        </div>
-        <a href="google.com" class="button">get in touch</a>
+      <div class="grid-cell">
+        <span class="topper scalin-subText">Solutions for Small Businesses.</span>
+        <h1>Web Design +<br>Development,<br>Made Easy.</h1>
+      </div>
+      <div class="grid-cell">
+        <p class="large_subtext scaling-subText">– Fully Custom Websites</p>
+        <p class="large_subtext scaling-subText">– No Templates, No CMS</p>
+        <p class="large_subtext scaling-subText">– Starting at <span class="medium-text">$250/Month</span></p>
+      </div>
+      <a href="google.com" class="button">get in touch</a>
     </div>
-    <img class="sampleImage" src="./assets/randomAssets/fogfantum01.png" alt="">
-    <div class="vortex-container_bottom">
-        <img class="vortex-container_bottom_img" src="./assets/vortex/vortex-back_openUp.svg">
-        <img class="vortex-container_bottom_img" src="./assets/vortex/vortex-middle_openUp.svg">
-        <img class="vortex-container_bottom_img" src="./assets/vortex/vortex-front_openUp.svg">
-        <img class="vortex-container_bottom_img" src="./assets/vortex/vortex-white_openUp.svg">
-        <img class="vortex-container_bottom_img" src="./assets/vortex/vortex-dark_openUp.svg">
+    <div class="swirl-wrapper">
+      <div class="bottom-swirl_wrapper">
+        <div class="bottom-swirl_dark">
+          <svg viewBox="0 0 393 86" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M393 0C343.5 55 146 107.5 0 3V85.5H393V0Z" />
+          </svg>
+        </div>
+        <div class="bottom-swirl_light">
+          <svg viewBox="0 0 393 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 2.5C29 30.5 157 124 393 0V85H0V2.5Z" />
+          </svg>
+
+        </div>
+        <div class="bottom-swirl_medium">
+          <svg viewBox="0 0 393 87" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M393 0C319.5 80 105 100.5 0 3.5V86.5H393V0Z" />
+          </svg>
+        </div>
+        <div class="bottom-swirl_black">
+          <svg viewBox="0 0 393 87" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 3.5C42.5 94 297 86 393 0.5V94H0V3.5Z" fill="black" />
+          </svg>
+        </div>
+      </div>
     </div>
   </section>
 
-  <script src="./script.js"></script>
-</body>
-</html>
-
-  <!-- <section id="what-we-do" class="section">
-    <h2>What We Do</h2>
-    <p>We provide top-notch services to help your business grow.</p>
+  <section id="what-we-do" class="section section-dark section-centeredText">
+    <span class="topper">What We Offer</span>
+    <h2>Your Website, Managed<span class="light-text"> Hassle-Free</span></h2>
+    <p class="scaling-pararaph scaling-pararaph_main">We focus on building custom, high performing websites for small
+      businesses across the
+      U.S. Every project is hand-coded, optimized for performance, and built with your business goals in mind. Our
+      tailored
+      designs attract more visitors and turn them into loyal customers, driving real growth and revenue.</p>
+    <div class="tile-wrapper">
+      <div class="tile">
+        <img src="./assets/webDesignIcons/mobile responsiveness.png" alt="">
+        <h3 class="light-text">Tailored to Your Brand</h3>
+        <p class="scaling-pararaph tile-p">Custom layouts tailored to your brand, blending exceptional visuals with
+          intuitive, user-friendly experiences
+        </p>
+      </div>
+      <div class="tile">
+        <img src="./assets/webDesignIcons/fast load speed.png" alt="">
+        <h3 class="light-text">Speed & Functionality</h3>
+        <p class="scaling-pararaph">Clean, efficient code for fast-loading, high-performance websites across all
+          devices, ensuring smooth viewing
+          and full functionality.</p>
+      </div>
+      <div class="tile">
+        <img src="./assets/webDesignIcons/clear call to action.png" alt="">
+        <h3 class="light-text">Optimized for Growth</h3>
+        <p class="scaling-pararaph">We ensure your site is easily found by the right audience, driving traffic and
+          converting visitors into
+          customers.</p>
+      </div>
+    </div>
   </section>
 
-  <section id="our-prices" class="section">
-    <h2>Our Prices</h2>
-    <p>Check out our affordable pricing plans that fit your needs.</p>
+  <section id="our-prices" class="section section-light section-centeredText">
+    <span class="topper">Our Commitment to Value</span>
+    <h2>Affordable Options for <span class="light-text">Every Project</span></h2>
+    <p class="scaling-pararaph scaling-pararaph_main">These prices are based on a standard 5-Page small business
+      website, but we do
+      custom
+      packages if you need something more than whats offered below</p>
+    <div class="tile-wrapper wide-tile_wrapper">
+      <div class="tile wide-tile light-tile">
+        <div class="wide-tile_inner-wrapper">
+          <p class="tile-heading"><span class="medium-text">Monthly</span> Plan</p>
+          <div class="tile_inner-wrapper">
+            <p class="tile_price-text">$250</p>
+            <p class="tile_price-subtext">a month</p>
+          </div>
+          <ul class="tile-ul_centered">
+            <li><svg width="20" height="20" xmlns="http://www.w3.org/2000/svg"></svg>$125.00 up front</li>
+            <li>$125.00 when site goes live</li>
+            <li>$250.00 a month after that</li>
+            <li>+ $25.00/m to add a blog</li>
+            <li>+ $50.00/m per 5 posts</li>
+            <li>+ $25/m per page over 5</li>
+          </ul>
+        </div>
+        <div class="wide-tile_inner-wrapper">
+          <span class="topper">What's included?</span>
+          <div class="benefit">
+            <img src="./assets/marks/checkmark-mediumRed.svg">
+            <div class="benefit-text_wrapper">
+              <p class="benefit-heading medium-text">Graphic Design</p>
+            </div>
+            
+          </div>
+          <div class="benefit">
+            <img src="./assets/marks/checkmark-mediumRed.svg">
+            <div class="benefit-text_wrapper">
+              <p class="benefit-heading medium-text">Design + Development</p>
+            </div>
+            
+          </div>
+          <div class="benefit">
+            <img src="./assets/marks/checkmark-mediumRed.svg">
+            <div class="benefit-text_wrapper">
+              <p class="benefit-heading medium-text">Content Creation</p>
+            </div>
+            
+          </div>
+          <div class="benefit">
+            <img src="./assets/marks/checkmark-mediumRed.svg">
+            <div class="benefit-text_wrapper">
+              <p class="benefit-heading medium-text">24/7 Support</p>
+            </div>
+            
+          </div>
+          <div class="benefit">
+            <img src="./assets/marks/checkmark-mediumRed.svg">
+            <div class="benefit-text_wrapper">
+              <p class="benefit-heading medium-text">Unlimited Revisions</p>
+            </div>
+            
+          </div>
+          <div class="benefit">
+            <img src="./assets/marks/checkmark-mediumRed.svg">
+            <div class="benefit-text_wrapper">
+              <p class="benefit-heading medium-text">Hosting Included</p>
+            </div>
+            
+          </div>
+          <!-- <p>12-month minimum contract</p> -->
+        </div>
+      </div>
+      <div class="tile wide-tile light-tile">
+        <p class="tile-heading">Bought<span class="medium-text"> Outright</span></p>
+        <div class="tile_inner-wrapper">
+          <p class="tile_price-text">$500</p>
+          <p class="tile_price-subtext">a month</p>
+        </div>
+        <ul class="tile-ul_centered">
+          <li>Blog included + 5 posts a month</li>
+          <li>+ $25/m per page over 5</li>
+        </ul>
+        <ul>
+          <li>$250.00 up front</li>
+          <li>$250.00 when site goes live</li>
+          <li>$500.00 a month after that</li>
+        </ul>
+        <p>12-month minimum contract</p>
+      </div>
+
+    </div>
+    <div class="benefit-wrapper">
+      <p class="scaling-pararaph scaling-pararaph_main benefit-subtext">We cover everything needed to get your website
+        established online!
+      </p>
+      <div class="benefit-wrapper_inner">
+        <div class="benefit">
+          <img src="./assets/marks/checkmark-mediumRed.svg">
+          <div class="benefit-text_wrapper">
+            <p class="benefit-heading medium-text">Graphic Design</p>
+            <p class="benefit-text">We design any and all graphics needed for the site at no cost.</p>
+          </div>
+        </div>
+        <div class="benefit">
+          <img src="./assets/marks/checkmark-mediumRed.svg">
+          <div class="benefit-text_wrapper">
+            <p class="benefit-heading medium-text">Web Design</p>
+            <p class="benefit-text">Your website will include everything it needs to succeed, tailored to your
+              specifications</p>
+          </div>
+        </div>
+        <div class="benefit">
+          <img src="./assets/marks/checkmark-mediumRed.svg">
+          <div class="benefit-text_wrapper">
+            <p class="benefit-heading medium-text">Web Development</p>
+            <p class="benefit-text">It will take around 40 hours to build your website, and should be completed in two
+              weeks.</p>
+          </div>
+        </div>
+        <div class="benefit">
+          <img src="./assets/marks/checkmark-mediumRed.svg">
+          <div class="benefit-text_wrapper">
+            <p class="benefit-heading medium-text">24/7 Support</p>
+            <p class="benefit-text">Call or text anytime! If I dont answer, keep calling. I’m here to help day or night!
+            </p>
+          </div>
+        </div>
+        <div class="benefit">
+          <img src="./assets/marks/checkmark-mediumRed.svg">
+          <div class="benefit-text_wrapper">
+            <p class="benefit-heading medium-text">Unlimited Edits</p>
+            <p class="benefit-text">Change anything you want at anytime and it will be done within 48 hours.</p>
+          </div>
+        </div>
+        <div class="benefit">
+          <img src="./assets/marks/checkmark-mediumRed.svg">
+          <div class="benefit-text_wrapper">
+            <p class="benefit-heading medium-text">Hosting Included</p>
+            <p class="benefit-text">Hosting fees are built right into the monthly payment.</p>
+          </div>
+        </div>
+        <div class="benefit">
+          <img src="./assets/marks/checkmark-mediumRed.svg">
+          <div class="benefit-text_wrapper">
+            <p class="benefit-heading medium-text">Search ready</p>
+            <p class="benefit-text">Our mission from day one is to make sure your business stands out online.</p>
+          </div>
+        </div>
+        <div class="benefit">
+          <img src="./assets/marks/checkmark-mediumRed.svg">
+          <div class="benefit-text_wrapper">
+            <p class="benefit-heading medium-text">Content Creation</p>
+            <p class="benefit-text">We help craft compelling content that resonates with your audience and enhances your
+              brand.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="swirl-wrapper">
+      <div class="top-swirl_wrapper">
+        <div class="top-swirl_dark">
+          <svg viewBox="0 0 393 87" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M-4.37144e-08 86.5C92.5 41 197.5 -18.5 392.5 87L392.5 0L-7.60578e-06 3.79586e-06L-4.37144e-08 86.5Z"
+              fill="#8B0000" />
+          </svg>
+        </div>
+        <div class="top-swirl_light">
+          <svg viewBox="0 0 393 87" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M393 86.5C332.5 50 169 -34 0 86.5L0 2.28882e-05H393V86.5Z" fill="#E9967A" />
+          </svg>
+
+        </div>
+        <div class="top-swirl_medium">
+          <svg viewBox="0 0 393 87" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M393 86.5C238 -3 77.5 7.5 0 86.5L0 7.62939e-06L393 1.5V86.5Z" fill="#B22222" />
+          </svg>
+
+        </div>
+        <div class="top-swirl_black">
+          <svg viewBox="0 0 393 87" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 86.5C21.5 44 255.5 -36 393 86.5L393 3.05176e-05L-7.56207e-06 2.67278e-05L0 86.5Z"
+              fill="black" />
+          </svg>
+        </div>
+      </div>
+      <div class="bottom-swirl_wrapper">
+        <div class="bottom-swirl_dark">
+          <svg viewBox="0 0 393 86" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M393 0C343.5 55 146 107.5 0 3V85.5H393V0Z" />
+          </svg>
+        </div>
+        <div class="bottom-swirl_light">
+          <svg viewBox="0 0 393 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 2.5C29 30.5 157 124 393 0V85H0V2.5Z" />
+          </svg>
+
+        </div>
+        <div class="bottom-swirl_medium">
+          <svg viewBox="0 0 393 87" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M393 0C319.5 80 105 100.5 0 3.5V86.5H393V0Z" />
+          </svg>
+        </div>
+        <div class="bottom-swirl_black">
+          <svg viewBox="0 0 393 87" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 3.5C42.5 94 297 86 393 0.5V94H0V3.5Z" fill="black" />
+          </svg>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <section id="portfolio" class="section">
-    <h2>Portfolio</h2>
-    <p>Here are some of the projects we've worked on.</p>
+  <section id="portfolio" class="section section-dark section-centeredText">
+    <span class="topper">Our Portfolio</span>
+    <h2>Take a Look at What <span class="light-text">We Provide</span></h2>
+    <p class="scaling-pararaph scaling-pararaph_main">Here are a few of our recent projects</p>
+    <div class="tile-wrapper">
+      <div class="tile portfolio-tile">
+        <img class="image" src="./assets/randomAssets/fogfantum01.png" alt="">
+        <h3 class="tile_heading portfolio-tile_heading light-text">Fog Fantom</h3>
+        <p class="tile_subheading portfolio-tile_subheading">Vape Store</p>
+        <p class="tile_p portfolio-tile_p">This is just a mock-up website that I built to showcase my abilities as a web
+          designer and developer.</p>
+      </div>
+      <div class="tile portfolio-tile">
+        <img class="image" src="./assets/randomAssets/fogfantum01.png" alt="">
+        <h3 class="tile_heading portfolio-tile_heading light-text">Fog Fantom</h3>
+        <p class="tile_subheading portfolio-tile_subheading">Vape Store</p>
+        <p class="tile_p portfolio-tile_p">This is just a mock-up website that I built to showcase my abilities as a web
+          designer and developer.</p>
+      </div>
+      <div class="tile portfolio-tile">
+        <img class="image" src="./assets/randomAssets/fogfantum01.png" alt="">
+        <h3 class="tile_heading portfolio-tile_heading light-text">Fog Fantom</h3>
+        <p class="tile_subheading portfolio-tile_subheading">Vape Store</p>
+        <p class="tile_p portfolio-tile_p">This is just a mock-up website that I built to showcase my abilities as a web
+          designer and developer.</p>
+      </div>
+    </div>
   </section>
 
-  <section id="who-we-are" class="section">
-    <h2>Who We Are</h2>
-    <p>We are a passionate team dedicated to delivering the best solutions.</p>
+  <section id="who-we-are" class="section section-light section-centeredText">
+    <span class="topper">Who We Are</span>
+    <h2>Stay-at-home<span class="light-text"> Dad</span> + Passionate <span class="light-text">Web Designer</span></h2>
+    <p class="who-we-are_p">My name is Jerromy, and I’m a web developer with a background in multiple trades and over
+      six years of formal education in web design, digital marketing, and business administration. I started this
+      business to provide high-quality web solutions, and after 5+ years in the industry and hundreds of websites built,
+      I’ve developed a method that consistently delivers outstanding results.</p>
+    <img class="who-we-are_img" src="./assets/face.svg" alt="">
+    <h3 class="who-we-are_h3">Jerromy <span class="medium-text">Chance</span></h3>
+    <p class="who-we-are_p">Web designer/developer</p>
+    <div class="swirl-wrapper">
+      <div class="top-swirl_wrapper">
+        <div class="top-swirl_dark">
+          <svg viewBox="0 0 393 87" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M-4.37144e-08 86.5C92.5 41 197.5 -18.5 392.5 87L392.5 0L-7.60578e-06 3.79586e-06L-4.37144e-08 86.5Z"
+              fill="#8B0000" />
+          </svg>
+        </div>
+        <div class="top-swirl_light">
+          <svg viewBox="0 0 393 87" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M393 86.5C332.5 50 169 -34 0 86.5L0 2.28882e-05H393V86.5Z" fill="#E9967A" />
+          </svg>
+
+        </div>
+        <div class="top-swirl_medium">
+          <svg viewBox="0 0 393 87" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M393 86.5C238 -3 77.5 7.5 0 86.5L0 7.62939e-06L393 1.5V86.5Z" fill="#B22222" />
+          </svg>
+
+        </div>
+        <div class="top-swirl_black">
+          <svg viewBox="0 0 393 87" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 86.5C21.5 44 255.5 -36 393 86.5L393 3.05176e-05L-7.56207e-06 2.67278e-05L0 86.5Z"
+              fill="black" />
+          </svg>
+        </div>
+      </div>
+      <div class="bottom-swirl_wrapper">
+        <div class="bottom-swirl_dark">
+          <svg viewBox="0 0 393 86" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M393 0C343.5 55 146 107.5 0 3V85.5H393V0Z" />
+          </svg>
+        </div>
+        <div class="bottom-swirl_light">
+          <svg viewBox="0 0 393 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 2.5C29 30.5 157 124 393 0V85H0V2.5Z" />
+          </svg>
+
+        </div>
+        <div class="bottom-swirl_medium">
+          <svg viewBox="0 0 393 87" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M393 0C319.5 80 105 100.5 0 3.5V86.5H393V0Z" />
+          </svg>
+        </div>
+        <div class="bottom-swirl_black">
+          <svg viewBox="0 0 393 87" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 3.5C42.5 94 297 86 393 0.5V94H0V3.5Z" fill="black" />
+          </svg>
+        </div>
+      </div>
+    </div>
   </section>
 
   <footer>
@@ -69,5 +400,5 @@
   </footer>
 
 </body>
-</html>
 
+</html>

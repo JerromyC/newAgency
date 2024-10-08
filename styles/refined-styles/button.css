@@ -1,0 +1,17 @@
+.button {
+    font-size: clamp(12pt, 3vw, 14pt);
+    padding: clamp(2px, 3vw, 20px);
+    margin-top: 10px;
+    width: 50%;
+    max-width: 250px;
+    color: var(--mainTwo);
+    background-color: var(--medium);
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid var(--mainTwo);
+  }
+
+  .button:hover {
+    background-color: var(--light);
+
+  }

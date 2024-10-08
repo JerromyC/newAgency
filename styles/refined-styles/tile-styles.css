@@ -1,0 +1,137 @@
+.tile-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    max-width: 300px;
+    margin: 25px;
+    padding: 2VW;
+}
+
+.light-tile {
+    background-color: var(--mainTwo);
+    box-shadow: 0px 2.5px 5px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.tile img {
+    width: 100%;
+    max-width: 200px;
+}
+
+.tile-heading {
+    margin: 0px auto;
+    font-weight: bold;
+    font-size: clamp(2pt, 8vw, 14pt);
+}
+
+/* .tile p:last-of-type {
+    font-size: 12pt;
+} */
+
+/* -----price tile----- */
+
+.tile_inner-wrapper {
+    height: auto;
+    max-width: auto;
+    margin: 25px auto;
+}
+
+.tile_price-text {
+    font-size: clamp(2pt, 20vw, 50pt);
+    color: var(--light);
+    line-height: 1;
+    margin: 0px;
+    text-align: center;
+}
+
+.tile_price-subtext {
+    line-height: 1;
+    font-size: 16pt;
+    color: #777;
+    margin: 0;
+    margin-left: auto;
+}
+
+/* .tile-ul_centered {
+    list-style: none;
+    text-align: left;
+    margin: auto;
+    padding: 0;
+}
+
+.tile-ul_centered li {
+    margin: auto;
+    margin: 10px;
+    position: relative;
+}
+
+.tile-ul_centered li::before {
+    content: url('../../assets/marks/checkmark-mediumRed.svg');
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 10px; /* Adjust width and height */
+    /* height: 10px;
+} */ */
+
+.tile li {
+    font-size: 12pt;
+
+}
+
+/* -----price tiles----- */
+.wide-tile_wrapper {
+    flex-direction: column;
+}
+
+.wide-tile {
+    flex-direction: column;
+    min-width: 100%;
+}
+
+.wide-tile_inner-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 25px;
+}
+
+/* -----portfolio tiles ----- */
+
+.portfolio-tile_heading {
+    margin: 0;
+    margin-right: auto;
+}
+
+.portfolio-tile_subheading {
+    margin: 0;
+    margin-right: auto;
+}
+
+.portfolio-tile_p {
+    text-align: left;
+}
+
+/* @media screen and (min-width: 600px) and (max-width: 950px) {
+    .tile {
+        margin: 25px;
+    }
+}
+
+@media screen and (min-width: 951px) {
+    .tile {
+        margin: 25px;
+    }
+} */

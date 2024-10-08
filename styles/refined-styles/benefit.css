@@ -1,0 +1,49 @@
+/* benefits */
+
+.benefit-wrapper {
+    margin: auto;
+    margin-top: 50px;
+    max-width: 1000px;
+}
+
+.benefit-wrapper_inner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.benefit {
+    display: flex;
+    flex-direction: row;
+    margin: 10px auto;
+    width: 75%;
+    /* max-width: 300px; */
+}
+
+.benefit-subtext {
+    margin-bottom: 25px;
+}
+
+.benefit img {
+    margin-right: auto;
+    margin-bottom: auto;
+    width: 25px;
+}
+
+.benefit-text_wrapper {
+    width: 80%;
+    text-align: left;
+    align-content: center;
+}
+
+.benefit-heading {
+    margin: 0px;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.benefit-text {
+    margin: 0px;
+    text-align: left;
+    font-size: 12pt;
+}

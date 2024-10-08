@@ -1,82 +1,105 @@
-@import url(./styles/hero.css);
+/* @import url(./styles/hero.css);
+@import url(./styles/what-we-do.css);
+@import url(./styles/portfolio.css);
+@import url(./styles/who-we-are.css);
 
+@import url(./styles/vortex.css); */
+
+
+/* refined style imports */
+@import url(./styles/refined-styles/text-formatting.css);
+@import url(./styles/refined-styles/tile-styles.css);
+@import url(./styles/refined-styles/grid.css);
+@import url(./styles/refined-styles/benefit.css);
+@import url(./styles/refined-styles/vortex.css);
+@import url(./styles/refined-styles/button.css);
+
+/* design elements style imports */
+@import url(./styles/swirl.css);
 
 /* Mobile-first CSS */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 :root {
-    --primary: #8B0000;
-    --medium: #B22222;
-    --light: #E9967A;
-    --mainOne: #000000;
-    --mainTwo: #FFFFFF;
-    --vh: 100vh;
+  --dark: #8B0000;
+  --medium: #B22222;
+  --light: #E9967A;
+  --mainOne: #000000;
+  --mainTwo: #FFFFFF;
+  --vh: 100vh;
 }
 
 body {
-    font-family:Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-  }
-
-nav {
-    position: relative;
-    padding: 1rem;
-    text-align: center;
-    z-index: 100;
-  }
-
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
-  }
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
 .section {
-    padding: 20px;
-  }
+  position: relative;
+  height: auto;
+  max-width: 100vw;
+  padding: 10vh clamp(10px, 5vw, 100px);
+  z-index: 1000;
+}
 
-.section h2 {
-    text-align: center;
-    margin-bottom: 20px;
-  }
+.main-section {
+  padding: 10vh clamp(10px, 5vw, 50px);
+}
+
+.section-light {
+  padding: clamp( 50px, 10vh, 100px) clamp(10px, 5vw, 100px);
+}
+
+.section-dark {
+  background: var(--mainOne);
+  color: var(--mainTwo);
+  z-index: 1010;
+}
+
+.section-centeredText {
+  text-align: center;
+}
+
+.who-we-are_img {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+}
+
+.who-we-are_h3 {
+  margin: auto;
+  text-align: center;
+}
+
+.who-we-are_p {
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
 
 footer {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+@media screen and (min-width: 600px) and (max-width: 950px) {
+  .section-light {
+    padding: clamp( 50px, 20vh, 150px) clamp(10px, 5vw, 100px);
+  }
+}
+
+@media screen and (min-width: 951px) {
+  .main-section {
+    padding: 10vh clamp(10px, 15vw, 300px);
+    min-height: 100vh;
   }
 
-  /* Tablet Styles */
-  /* @media screen and (min-width: 450px) and (max-width: 768px) {
-.section {
-      padding: 40px;
-    }
-  } */
-
-  /* Desktop Styles
-  /* @media (min-width: 1024px) {
-    nav {
-      display: flex;
-      justify-content: space-between;
-      padding: 1rem 5%;
-    }
-
-    nav a {
-      margin: 0 20px;
-    }
-
-    .container {
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-
-    .hero {
-      padding: 120px 60px;
-      background-color: green;
-    }
-  } */
+  .section-light {
+    padding: clamp( 50px, 20vh, 150px) clamp(10px, 5vw, 100px);
+  }
+}
