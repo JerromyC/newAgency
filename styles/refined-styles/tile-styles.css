@@ -6,16 +6,21 @@
 }
 
 .tile {
+    position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: center;
+    /* justify-content: center; */
     align-items: center;
     height: auto;
     width: 100%;
     max-width: 300px;
     margin: 25px;
     padding: 2VW;
+}
+
+.left-aligned {
+    text-align: left;
+    justify-content: left;
 }
 
 .light-tile {
@@ -25,9 +30,14 @@
     padding: 20px;
 }
 
-.tile img {
+.tile-image {
     width: 100%;
     max-width: 200px;
+}
+
+.tile-faintImage {
+    width: 50%;
+    margin-bottom: 20px;
 }
 
 .tile-heading {
@@ -83,29 +93,53 @@
     left: 0;
     top: 0;
     width: 10px; /* Adjust width and height */
-    /* height: 10px;
-} */ */
-
-.tile li {
+/* height: 10px;
+} */
+*/ .tile li {
     font-size: 12pt;
 
 }
 
 /* -----price tiles----- */
-.wide-tile_wrapper {
-    flex-direction: column;
+
+.price-tile {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    min-width: 100px;
+    max-width: 300px;
+    margin: 20px 10px;
+    padding: 25px;
 }
 
-.wide-tile {
-    flex-direction: column;
-    min-width: 100%;
-}
-
-.wide-tile_inner-wrapper {
+.price-tile_inner-wrapper {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    margin: 25px;
+    width: auto;
+    margin: 25px auto;
+}
+
+.price-tile_inner-wrapper_p {
+    width: auto;
+    margin: auto;
+}
+
+.price-tile_info-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.price-tile_info-wrapper p {
+    font-size: 10pt;
+    margin: auto;
+}
+
+.dividing-line {
+    height: 2px;
+    width: 50%;
+    margin: 10px auto;
+    background-color: var(--mainOne);
 }
 
 /* -----portfolio tiles ----- */

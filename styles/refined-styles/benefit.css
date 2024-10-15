@@ -15,9 +15,14 @@
 .benefit {
     display: flex;
     flex-direction: row;
-    margin: 10px auto;
-    width: 75%;
-    /* max-width: 300px; */
+    margin: auto;
+    margin-bottom: 5px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.benefit:first-of-type {
+    margin-top: 25px;
 }
 
 .benefit-subtext {
@@ -25,7 +30,7 @@
 }
 
 .benefit img {
-    margin-right: auto;
+    margin-left: auto;
     margin-bottom: auto;
     width: 25px;
 }
@@ -38,6 +43,7 @@
 
 .benefit-heading {
     margin: 0px;
+    margin-left: 20px;
     font-size: 12pt;
     font-weight: bold;
 }

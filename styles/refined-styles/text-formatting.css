@@ -3,10 +3,12 @@
 h1 {
     font-size: clamp(1px, 10vw, 40pt);
     line-height: 1;
-    max-width: 500px;
-    text-wrap: nowrap;
     margin-top: 0px;
     margin-bottom: 25px;
+  }
+
+  .main-h1 {
+    max-width: 500px;
   }
 
 h2 {
@@ -22,22 +24,29 @@ h3 {
 }
 
 .topper {
-    font-size: clamp(8pt, 4.5vw, 18pt);
+    font-size: 18pt;
     width: 100%;
     text-wrap: nowrap;
     margin-bottom: 0px;
     font-style: italic;
   }
 
+.topper-small {
+    font-size: 14pt;
+}
+
 /*-----classes for responsive font-size-----  */
 .large_subtext {
     line-height: 1;
-    background-color: #ffffffbf;
     margin: 10px auto;
   }
 
 .scaling-subText {
     font-size: clamp(8pt, 4.5vw, 18pt);
+    max-width: 500px;
+    margin: 0;
+    margin-right: auto;
+    margin-bottom: 10px;
 }
 
 .scaling-pararaph {
@@ -65,4 +74,9 @@ h3 {
 
 .lightgray-text {
     color: #777;
+}
+
+.italic {
+    font-style: italic;
+    margin: 0;
 }

@@ -4,10 +4,24 @@
     grid-template-rows: auto;
     width: auto;
     max-width: 400px;
-    height: 10%;
+    /* height: 10%; */
+  }
+
+  .grid-wide {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    max-width: 800px;
   }
 
   .grid-cell {
     width: 100%;
     height: auto;
+  }
+
+  .grid-cell_heading {
+    grid-column: span 1;
+  }
+
+  @media screen and (min-width: 950px) {
+    
   }

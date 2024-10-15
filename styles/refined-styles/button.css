@@ -11,6 +11,11 @@
     border: 2px solid var(--mainTwo);
   }
 
+  .price-tile_button {
+    display: inline-block;
+    margin-top: 25px;
+  }
+
   .button:hover {
     background-color: var(--light);
 
