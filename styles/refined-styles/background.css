@@ -1,3 +1,5 @@
+/* Credit for backround animation base code goes to Mohammad Abdul Mohaiman - https://codepen.io/mohaiman/pen/MQqMyo */
+
 @keyframes animate {
     0%{
         transform: translateY(0) rotate(0deg);
@@ -5,13 +7,13 @@
         border-radius: 0;
     }
     80%{
-        transform: translateY(-800px) rotate(680deg);
-        opacity: .10;
+        transform: translateY(-240vh) rotate(680deg);
+        opacity: 1;
         border-radius: 0;
     }
     100%{
-        transform: translateY(-1000px) rotate(720deg);
-        opacity: 0;
+        transform: translateY(-300vh) rotate(720deg);
+        opacity: 1;
         border-radius: 50%;
     }
 }
@@ -23,32 +25,45 @@
         border-radius: 0;
     }
     20% {
-        transform: translateY(-200px) rotate(144deg); /* Starting vertical movement and rotation */
+        transform: translateY(-60vh) rotate(144deg); /* Starting vertical movement and rotation */
         opacity: 1;
-        border-radius: 20%;
+        border-radius: 40%;
     }
     50% {
-        transform: translateY(-500px) rotate(360deg); /* Midway movement and rotation */
+        transform: translateY(-150vh) rotate(360deg); /* Midway movement and rotation */
         opacity: 1;
         border-radius: 50%;
     }
     80% {
-        transform: translateY(-800px) rotate(576deg); /* Almost full movement and rotation */
-        opacity: 0.1;
+        transform: translateY(-240vh) rotate(576deg); /* Almost full movement and rotation */
+        opacity: 1;
         border-radius: 50%;
     }
     100% {
-        transform: translateY(-1000px) rotate(720deg); /* Full movement up and complete 2 full rotations */
-        opacity: 0;
+        transform: translateY(-300vh) rotate(720deg); /* Full movement up and complete 2 full rotations */
+        opacity: 1;
         border-radius: 50%;
     }
 }
 
+.background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(#ffffff 15%, #ffffff00 100%);
+    z-index: -10;
+}
 
+.background-overlay_dark {
+    background: linear-gradient(#000000 15%, #00000000 100%);
+}
 
 .background {
     position: absolute;
     width: 100vw;
+    max-width: 100%;
     height: 100%;
     top: 0;
     left: 0;
@@ -56,7 +71,7 @@
     padding: 0;
     background: #ffffff00;
     overflow: hidden;
-    z-index: -1;
+    z-index: -11;
 }
 .background li {
     position: absolute;

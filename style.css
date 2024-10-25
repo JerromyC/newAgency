@@ -48,10 +48,6 @@ body {
   z-index: 1000;
 }
 
-.main-section {
-  padding: 10vh clamp(10px, 5vw, 50px);
-}
-
 .section-light {
   padding: clamp( 50px, 10vh, 100px) clamp(10px, 5vw, 100px);
 }
@@ -94,6 +90,11 @@ footer {
   .section-light {
     padding: clamp( 50px, 20vh, 150px) clamp(10px, 5vw, 100px);
   }
+
+  #main-getStarted {
+    padding: 10vh clamp(10px, 15vw, 300px);
+    min-height:75vh;
+  }
 }
 
 @media screen and (min-width: 951px) {
@@ -104,5 +105,10 @@ footer {
 
   .section-light {
     padding: clamp( 50px, 20vh, 150px) clamp(10px, 5vw, 100px);
+  }
+
+  #main-getStarted {
+    padding: 10vh clamp(10px, 15vw, 300px) 5vh;
+    min-height:75vh;
   }
 }

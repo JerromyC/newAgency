@@ -11,6 +11,13 @@
     border: 2px solid var(--mainTwo);
   }
 
+  .form-button {
+    font-size: clamp(10pt, 3vw, 12pt);
+    padding: 3px;
+    margin-left: auto;
+    text-align: center;
+  }
+
   .price-tile_button {
     display: inline-block;
     margin-top: 25px;

@@ -8,9 +8,25 @@ form {
 }
 
 form label {
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 form label:first-of-type {
     margin-top: 0;
+}
+
+form label:first-of-type {
+    margin-top: 0;
+}
+
+legend {
+    margin-top: 20px;
+}
+
+input {
+    height: 25px;
+}
+
+#info {
+    height: 150px;
 }
