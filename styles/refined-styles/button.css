@@ -1,6 +1,6 @@
 .button {
     font-size: clamp(12pt, 3vw, 14pt);
-    padding: clamp(2px, 3vw, 20px);
+    padding: clamp(2px, 2vw, 15px);
     margin-top: 10px;
     width: 50%;
     max-width: 250px;
@@ -21,6 +21,15 @@
   .price-tile_button {
     display: inline-block;
     margin-top: 25px;
+  }
+
+  .wide-button {
+    width: 100%;
+    max-width: none;
+  }
+
+  .short-button {
+    padding: clamp(2px, 2vw, 10px);
   }
 
   .button:hover {

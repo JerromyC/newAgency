@@ -17,6 +17,11 @@ h2 {
     font-size: clamp(18pt, 7vw, 30pt);
     max-width: 500px;
     margin: auto;
+    z-index: 1000;
+}
+
+#timeline h2 {
+    margin-top: 50px;
 }
 
 h3 {
@@ -24,7 +29,7 @@ h3 {
 }
 
 .topper {
-    font-size: 18pt;
+    font-size: clamp(14pt, 5%, 18pt);
     width: 100%;
     text-wrap: nowrap;
     margin-bottom: 0px;

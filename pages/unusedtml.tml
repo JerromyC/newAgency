@@ -1,0 +1,30 @@
+                <!-- <div class="form-wrapper">
+                    <form method="post" id="contact-form">
+                        <label for="name">*Name:</label>
+                        <input type="text" id="name" name="name" required>
+        
+                        <label for="email">*Email:</label>
+                        <input type="email" id="email" name="email" required>
+        
+                        <label for="phone">Phone</label>
+                        <input type="number" id="phone" name="phone">
+        
+                        <label for="business">Business Name</label>
+                        <input type="text" id="business" name="business">
+        
+                        <label for="info">Additional Info</label>
+                        <textarea name="info" rows="5" cols="15"></textarea>
+        
+                        <legend>*Preferred Communication Method</legend>
+                        <select name="communication" id="cmmunication">
+                            <option value="call">Phone Call</option>
+                            <option value="text">Text Msg</option>
+                            <option value="email">E-mail</option>
+                            <option value="video">Video Call</option>
+                            <option value="any">Any Method</option>
+                        </select>
+        
+                        <input class="button form-button" type="submit" value="Submit">
+        
+                        <a href="./schedule.html">schedule</a>
+        --->

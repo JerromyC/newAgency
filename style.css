@@ -79,6 +79,10 @@ body {
   text-align: center;
 }
 
+#calendly-inline-widget {
+  min-height: 700px;
+}
+
 footer {
   background-color: #333;
   color: white;

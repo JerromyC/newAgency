@@ -128,7 +128,7 @@
         </ul>
     </section>
 
-    <section id="timeline" class="section section-light section-centeredText">
+    <!-- <section id="timeline" class="section section-light section-centeredText">
         <h2>Timeline for <span class="medium-text">Your Project</span></h2>
         <p class="scaling-pararaph scaling-pararaph_main">We aim to launch your website quickly, but need your input to
             complete it. To make this easy, we’ve streamlined the onboarding process. Please submit all required forms
@@ -220,42 +220,15 @@
             <li></li>
             <li></li>
         </ul>
-    </section>
+    </section> -->
 
     <section id="form" class="section section-dark section-centeredText">
-        <h2>Schedule a <span class="light-text">Meeting</span></h2>
+        <h2> <span class="light-text">Info</span></h2>
         <p class="scaling-pararaph scaling-pararaph_main">Fill out the form below and schedule a Meeting with me to go
             over some of the finer details before we begin.</p>
         <p class="scaling-pararaph scaling-pararaph_main light-text">During this call I will send you all of the
             onboarding links</p>
-        <div class="form-wrapper">
-            <form action="/submit" method="post" id="contact-form">
-                <label for="name">*Name:</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">*Email:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="phone">Phone</label>
-                <input type="number" id="phone" name="phone">
-
-                <label for="business">Business Name</label>
-                <input type="text" id="business" name="business">
-
-                <label for="info">Additional Info</label>
-                <textarea name="info" rows="5" cols="15"></textarea>
-
-                <legend>*Preferred Communication Method</legend>
-                <select name="communication" id="cmmunication">
-                    <option value="call">Phone Call</option>
-                    <option value="text">Text Msg</option>
-                    <option value="email">E-mail</option>
-                    <option value="video">Video Call</option>
-                    <option value="any">Any Method</option>
-                </select>
-
-                <input class="button form-button" type="submit" value="Submit">
-            </form>
+            <a href="./schedule.html">scedule</a>
         </div>
         <div class="background-overlay background-overlay_dark"></div>
         <ul class="background background-dark">
@@ -283,20 +256,6 @@
                         publicKey: "k_7UvtB0Qxu7me9R_",
                     });
         })();
-    </script>
-    <script type="text/javascript">
-                window.onload = function() {
-                    document.getElementById('contact-form').addEventListener('submit', function (event) {
-                        event.preventDefault();
-                        // these IDs from the previous steps
-                        emailjs.sendForm('service_j8f1nms', 'contact_form', this)
-                            .then(() => {
-                                console.log('SUCCESS!');
-                            }, (error) => {
-                                console.log('FAILED...', error);
-                            });
-                    });
-        }
     </script>
 </body>
 
