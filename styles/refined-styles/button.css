@@ -8,7 +8,6 @@
     background-color: var(--medium);
     text-decoration: none;
     text-align: center;
-    border: 2px solid var(--mainTwo);
   }
 
   .form-button {
@@ -21,6 +20,12 @@
   .price-tile_button {
     display: inline-block;
     margin-top: 25px;
+    filter: drop-shadow(5px 5px 0px var(--light));
+  }
+
+  .price-tile_button:hover {
+    background-color: var(--dark);
+    filter: drop-shadow(1px 1px 1px var(--light));
   }
 
   .wide-button {
@@ -28,16 +33,13 @@
     max-width: none;
   }
 
+  .wide-button:hover {
+    background-color: var(--dark);
+  }
+
   .short-button {
     padding: clamp(2px, 2vw, 10px);
   }
-
-  .button:hover {
-    background-color: var(--light);
-
-  }
-
-
 
 .wrapper{
     /* position: absolute;

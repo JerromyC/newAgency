@@ -27,3 +27,31 @@ function setVh() {
       document.getElementById('calendly-inline-widget').style.height = event.data.payload.height + 'px';
     }
   });
+
+
+  // timeline
+
+  // Get the elements
+var elements = document.querySelectorAll('.content');
+
+// Function to check for fade effect on scroll and resize
+function checkForFade() {
+  var windowHeight = window.innerHeight;
+  elements.forEach(function (element) {
+    var elementRect = element.getBoundingClientRect();
+    var triggerPoint = 0.5 * windowHeight; // Trigger when 50% of the element is in view
+
+    if (elementRect.top < windowHeight - triggerPoint) {
+      element.classList.remove('non-focus');
+    } else {
+      element.classList.add('non-focus');
+    }
+  });
+}
+
+// Add event listeners for scroll and resize and call the checkForFade function
+window.addEventListener('scroll', checkForFade);
+window.addEventListener('resize', checkForFade);
+
+// Trigger the scroll event on initial load
+window.dispatchEvent(new Event('scroll'));
