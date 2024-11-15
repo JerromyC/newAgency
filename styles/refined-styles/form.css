@@ -1,10 +1,14 @@
+.form-wrapper {
+    max-width: clamp(200px, 100%, 800px);
+    margin: 50px auto;
+    padding: 2.5vw;
+}
+
 form {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     text-align: left;
-    margin: 50px auto;
-    max-width: clamp(100px, 80%, 800px);
 }
 
 form label {
