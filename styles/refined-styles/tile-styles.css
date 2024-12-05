@@ -55,8 +55,8 @@
 
 .tile-heading {
     margin: 0px auto;
-    font-weight: bold;
-    font-size: clamp(2pt, 8vw, 14pt);
+    font-weight: regular;
+    font-size: clamp(2pt, 8vw, 24pt);
 }
 
 /* .tile p:last-of-type {
@@ -128,8 +128,8 @@
 .price-tile_inner-wrapper {
     display: flex;
     flex-direction: column;
-    width: auto;
-    margin: 25px auto;
+    width: 100%;
+    margin: auto;
 }
 
 .price-tile_inner-wrapper_p {
