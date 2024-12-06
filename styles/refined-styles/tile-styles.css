@@ -16,7 +16,7 @@
     width: 100%;
     max-width: 300px;
     margin: 25px;
-    padding: 2VW;
+    padding: clamp(20px, 2vw, 50px);
     border-radius: 50px;
 }
 

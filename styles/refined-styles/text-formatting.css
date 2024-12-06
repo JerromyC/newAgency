@@ -13,7 +13,7 @@ h1 {
 h2 {
     text-align: center;
     margin: 0;
-    font-size: clamp(18pt, 7vw, 30pt);
+    font-size: clamp(20pt, 8vw, 30pt);
     max-width: 500px;
     margin: auto;
     z-index: 1000;
@@ -55,6 +55,7 @@ h3 {
 
 .scaling-pararaph {
     font-size: 12pt;
+    text-align: left;
 }
 
 .scaling-pararaph_main {

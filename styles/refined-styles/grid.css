@@ -4,7 +4,7 @@
     grid-template-rows: auto;
     width: auto;
     max-width: 400px;
-    margin: 10vw auto 5vw;
+    margin: 75px auto 5vw;
     /* height: 10%; */
   }
 
@@ -21,6 +21,15 @@
 
   .grid-cell_heading {
     grid-column: span 1;
+  }
+
+  /* cell types */
+  .full-width-cell {
+    /* styles not needed for mobile*/
+  }
+
+  .flex-cell {
+     margin-top: 25px;
   }
 
   @media screen and (min-width: 750px) {

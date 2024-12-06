@@ -16,9 +16,14 @@
     display: flex;
     flex-direction: row;
     margin: auto;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     width: 100%;
     max-width: 300px;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.no-benefit {
+    opacity: 25%;
 }
 
 .benefit:first-of-type {
@@ -41,10 +46,16 @@
 }
 
 .benefit-heading {
-    margin: 0px;
+    margin: 5px;
     margin-left: 20px;
     font-size: 12pt;
-    font-weight: bold;
+    text-wrap: nowrap;
+}
+
+.benefit-heading:first-of-type {
+    margin-top: 0px;
+    margin-left: 20px;
+    font-size: 12pt;
     text-wrap: nowrap;
 }
 
