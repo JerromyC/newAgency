@@ -104,8 +104,7 @@
     text-align: left;
   }
   
-  .info-container:hover .info-bubble,
-  .info-container.active .info-bubble {
+  .info-container:hover .info-bubble {
     display: block;
   }
   
