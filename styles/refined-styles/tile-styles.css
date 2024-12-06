@@ -44,13 +44,19 @@
 }
 
 .tile-image {
-    width: 100%;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 25px;
     max-width: 200px;
 }
 
 .tile-faintImage {
     width: 50%;
-    margin-bottom: 20px;
+    height: auto;
+    max-height: 100px;
+    margin: auto;
+    margin-bottom: 25px;
 }
 
 .tile-heading {
