@@ -34,8 +34,8 @@
     color: #00000080;
 }
 
-.no-benefit img:first-of-type {
-    opacity: 50%;
+.no-benefit img {
+    opacity: 25%;
 }
 
 .benefit-subtext {
@@ -84,7 +84,7 @@
     font-style: normal; /* Or replace with an actual icon */
     color: #fff;
     text-align: center;
-    opacity: 100%;
+    opacity: 25%;
   }
   
   .info-bubble {
