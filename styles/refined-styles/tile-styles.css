@@ -46,9 +46,10 @@
 .tile-image {
     width: 50%;
     height: auto;
+    max-height: 100px;
     margin: auto;
     margin-bottom: 25px;
-    max-width: 200px;
+    background-color: yellow;
 }
 
 .tile-faintImage {
@@ -57,6 +58,7 @@
     max-height: 100px;
     margin: auto;
     margin-bottom: 25px;
+    background-color: yellow;
 }
 
 .tile-heading {
