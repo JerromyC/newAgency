@@ -31,7 +31,11 @@
 }
 
 .no-benefit {
-    opacity: 25%;
+    color: #00000080;
+}
+
+.no-benefit img:first-of-type {
+    opacity: 50%;
 }
 
 .benefit-subtext {
@@ -68,3 +72,40 @@
     text-align: left;
     font-size: 12pt;
 }
+
+/* info bubble */
+.info-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .info-icon {
+    cursor: pointer;
+    font-style: normal; /* Or replace with an actual icon */
+    color: #fff;
+    text-align: center;
+    opacity: 100%;
+  }
+  
+  .info-bubble {
+    display: none;
+    position: absolute;
+    top: 120%;
+    right: 0%;
+    transform: translateX(-12.5%);
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    /* white-space: nowrap; */
+    width: clamp(75px, 100vw, 225px);
+    text-align: left;
+  }
+  
+  .info-container:hover .info-bubble,
+  .info-container.active .info-bubble {
+    display: block;
+  }
+  
