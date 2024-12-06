@@ -51,10 +51,9 @@
     margin-bottom: 25px;
 }
 
-.tile-faintImage {
-    width: 50%;
-    height: auto;
-    max-height: 100px;
+.portfolio-image {
+    width: 100%;
+    /* height: auto; */
     margin: auto;
     margin-bottom: 25px;
 }

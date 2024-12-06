@@ -12,6 +12,14 @@
     flex-wrap: wrap;
 }
 
+.benefit-label {
+    font-size: 12pt;
+    text-align: left;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #DDDDDD;
+}
+
 .benefit {
     display: flex;
     flex-direction: row;
@@ -24,10 +32,6 @@
 
 .no-benefit {
     opacity: 25%;
-}
-
-.benefit:first-of-type {
-    margin-top: 25px;
 }
 
 .benefit-subtext {
