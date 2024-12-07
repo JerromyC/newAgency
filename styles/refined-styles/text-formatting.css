@@ -13,10 +13,12 @@ h1 {
 h2 {
     text-align: center;
     margin: 0;
-    font-size: clamp(20pt, 8vw, 30pt);
+    font-size: clamp(22pt, 8vw, 30pt);
     max-width: 500px;
     margin: auto;
+    margin-bottom: 32px;
     z-index: 1000;
+    line-height: 1;
 }
 
 #timeline h2 {
@@ -31,7 +33,7 @@ h3 {
     font-size: clamp(14pt, 5%, 18pt);
     width: 100%;
     text-wrap: nowrap;
-    margin-bottom: 0px;
+    margin-bottom: 8px;
     font-style: italic;
   }
 
@@ -50,7 +52,7 @@ h3 {
     max-width: 500px;
     margin: 0;
     margin-left: auto;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 .scaling-pararaph {
@@ -60,9 +62,17 @@ h3 {
 
 .scaling-pararaph_main {
     max-width: 600px;
-    margin: auto;
-    margin-top: 25px;
+    margin: 32px auto;
     text-align: center;
+    max-width: 80%;
+}
+
+#whats-included .scaling-pararaph_main {
+    margin-bottom: 0px;
+}
+
+#portfolio .scaling-pararaph_main {
+    margin: 16px auto;
 }
 
 .light-text {

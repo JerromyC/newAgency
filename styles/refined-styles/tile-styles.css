@@ -13,9 +13,9 @@
     align-items: center;
     transform-origin: center;
     height: auto;
-    width: 100%;
+    width: auto;
     max-width: 300px;
-    margin: 25px;
+    margin: 8px;
     padding: clamp(20px, 2vw, 50px);
     border-radius: 50px;
 }
@@ -29,6 +29,11 @@
         -webkit-backdrop-filter: blur(20px);
         /* border: 2px outset rgba(255, 255, 255, 0.3); */
         box-shadow: 0px 1px 24px -1px rgba(0, 0, 0, 0.2); 
+}
+
+.frosted-tile p {
+    margin-top: 8px;
+    margin-bottom: 0px;
 }
 
 .left-aligned {
@@ -45,10 +50,10 @@
 
 .tile-image {
     width: 50%;
-    height: auto;
+    height: 100px;
     max-height: 100px;
     margin: auto;
-    margin-bottom: 25px;
+    margin-bottom: 32px;
 }
 
 .portfolio-image {
@@ -176,14 +181,17 @@
     text-align: left;
 }
 
-/* @media screen and (min-width: 600px) and (max-width: 950px) {
-    .tile {
-        margin: 25px;
+@media only screen and (min-width: 710px) and (max-width: 1075px) {
+    #what-we-do .tile-wrapper,
+    #our-prices .tile-wrapper {
+        flex-direction: column;
+        align-content: center;
     }
-}
+} 
 
-@media screen and (min-width: 951px) {
-    .tile {
-        margin: 25px;
+@media screen and (min-width: 1300px) {
+    .tile-wrapper {
+        max-width: 90%;
+        margin: auto;
     }
-} */
+} 

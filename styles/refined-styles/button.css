@@ -19,7 +19,7 @@
 
   .price-tile_button {
     display: inline-block;
-    margin-top: 25px;
+    margin-top: 0px;
     filter: drop-shadow(5px 5px 0px var(--light));
   }
 
@@ -46,7 +46,7 @@
     align-items: center;
     width: 100%;
     height:auto;
-    padding: 50px 0px;
+    margin: 32px auto;
 }
 .main-button{
     width: 80%;
@@ -63,7 +63,7 @@
     cursor: pointer;
     position: relative;
     padding: 0px;
-    margin: 20px auto;
+    margin: auto;
     overflow: hidden;
     transition: all .5s;
     box-shadow: 0px 4px 8px rgba(0,0,0,.2);

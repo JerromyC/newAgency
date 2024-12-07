@@ -87,9 +87,9 @@ body {
 }
 
 .who-we-are_p {
-  max-width: 500px;
+  max-width: 475px;
   margin: auto;
-  text-align: center;
+  text-align: left;
 }
 
 #calendly-inline-widget {
