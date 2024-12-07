@@ -92,6 +92,10 @@ body {
   text-align: left;
 }
 
+.who-we-are_p .centered_who-we-are_p {
+  text-align: center;
+}
+
 #calendly-inline-widget {
   min-height: 700px;
 }
