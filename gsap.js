@@ -33,4 +33,13 @@
       .to(word1, { opacity: 1 }) // fade the new word in
       .to({}, { duration: 2 });
   });
+
+
+// Select all elements with the 'light_text' class
+const light_texts = document.querySelectorAll('.scale-up'); 
+
+// Create the GSAP timeline for each element
+
+
+  gsap.to(light_texts, { color: blue });  // Bulge the text
   
