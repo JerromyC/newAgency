@@ -21,13 +21,11 @@
 }
 
 .frosted-tile {
-        /* new stuff */
         background: rgb(255,255,255);
         background: linear-gradient(145deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0.1) 100%);
         border-radius: 30px;
         backdrop-filter: blur(20px);
         -webkit-backdrop-filter: blur(20px);
-        /* border: 2px outset rgba(255, 255, 255, 0.3); */
         box-shadow: 0px 1px 24px -1px rgba(0, 0, 0, 0.2); 
 }
 
@@ -58,7 +56,6 @@
 
 .portfolio-image {
     width: 100%;
-    /* height: auto; */
     margin: auto;
     margin-bottom: 25px;
 }
@@ -68,10 +65,6 @@
     font-weight: regular;
     font-size: clamp(2pt, 8vw, 24pt);
 }
-
-/* .tile p:last-of-type {
-    font-size: 12pt;
-} */
 
 /* -----price tile----- */
 
@@ -97,27 +90,6 @@
     margin-left: auto;
 }
 
-/* .tile-ul_centered {
-    list-style: none;
-    text-align: left;
-    margin: auto;
-    padding: 0;
-}
-
-.tile-ul_centered li {
-    margin: auto;
-    margin: 10px;
-    position: relative;
-}
-
-.tile-ul_centered li::before {
-    content: url('../../assets/marks/checkmark-mediumRed.svg');
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 10px; /* Adjust width and height */
-/* height: 10px;
-} */
 */ .tile li {
     font-size: 12pt;
 

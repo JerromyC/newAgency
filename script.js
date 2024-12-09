@@ -1,3 +1,5 @@
+
+// --------------------Calendly interation ---------------------------------
 function setVh() {
     let vh = window.innerHeight * 0.01;
     document.documentElement.style.setProperty('--vh', `${vh}px`);
@@ -29,7 +31,7 @@ function setVh() {
   });
 
 
-  // timeline
+  // ----------------------------- timeline animation ---------------------------
 
   // Get the elements
 var elements = document.querySelectorAll('.content');

@@ -1,11 +1,3 @@
-/* @import url(./styles/hero.css);
-@import url(./styles/what-we-do.css);
-@import url(./styles/portfolio.css);
-@import url(./styles/who-we-are.css);
-
-@import url(./styles/vortex.css); */
-
-
 /* refined style imports */
 @import url(./styles/refined-styles/text-formatting.css);
 @import url(./styles/refined-styles/tile-styles.css);
@@ -39,6 +31,7 @@
   --text-light: rgba(255, 255, 255, 0.6);
   --text-lighter: rgba(255, 255, 255, 0.9);
   --accent-color: #F67B50;
+  --spacing-xs: 8px;
   --spacing-s: 16px;
   --spacing-m: 24px;
   --spacing-l: 32px;

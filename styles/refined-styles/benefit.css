@@ -81,7 +81,7 @@
   
   .info-icon {
     cursor: pointer;
-    font-style: normal; /* Or replace with an actual icon */
+    font-style: normal;
     color: #fff;
     text-align: center;
     opacity: 25%;
@@ -99,7 +99,6 @@
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     z-index: 1000;
-    /* white-space: nowrap; */
     width: clamp(75px, 100vw, 225px);
     text-align: left;
   }

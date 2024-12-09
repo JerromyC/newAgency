@@ -30,7 +30,7 @@ h3 {
 }
 
 .topper {
-    font-size: clamp(14pt, 5%, 18pt);
+    font-size: clamp(10pt, 5vw, 16pt);
     width: 100%;
     text-wrap: nowrap;
     margin-bottom: 8px;

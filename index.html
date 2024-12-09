@@ -7,6 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Your Website</title>
   <link rel="stylesheet" href="./style.css">
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>
 </head>
 
 <body>
@@ -20,8 +22,8 @@
   <section id="hero" class="section main-section">
     <div class="grid">
       <div class="grid-cell">
-        <span class="topper scalin-subText">Solutions for Small Businesses.</span>
-        <h1 class="main-h1"><span class="medium-text">Affordable</span><br>Web Design +<br>Development.</h1>
+        <span class="topper">Solutions for Small Businesses.</span>
+        <h1 class="main-h1"><span class="medium-text" id="word1">Affordable</span><br>Web Design +<br>Development.</h1>
       </div>
       <div class="grid-cell flex-cell">
         <p class="large_subtext scaling-subText">– Fully Custom Websites</p>
@@ -246,10 +248,13 @@
         <div class="price-tile_inner-wrapper">
           <p class="tile-heading">Self-Starter</p>
           <span class="topper">4 page Starter Website</span>
-          <div class="tile_inner-wrapper">
-            <p class="tile_price-text">$250</p>
+          <p class="tile_full-price-text">$1250.00 for a full year</p>
+          <p class="tile_price-text">$125</p>
+          <p class="tile_price-subtext">a month</p>
+          <!-- <div class="tile_inner-wrapper">
+            <p class="tile_price-text">$125</p>
             <p class="tile_price-subtext">a month</p>
-          </div>
+          </div> -->
         </div>
         <!-- benefits list -->
         <div class="price-tile_inner-wrapper">
@@ -1283,6 +1288,7 @@
   <footer>
     <p>&copy; 2024 Your Company Name. All rights reserved.</p>
   </footer>
+  <script src="./gsap.js"></script>
 </body>
 
 </html>
