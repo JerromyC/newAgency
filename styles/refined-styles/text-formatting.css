@@ -41,6 +41,19 @@ h3 {
     font-size: 14pt;
 }
 
+.floater {
+    font-size: clamp(10pt, 5vw, 14pt);
+    width: 100%;
+    margin: 0px;
+    font-style: italic;
+    opacity: 50%;
+}
+
+.floater-extra {
+    font-size: clamp(8pt, 5vw, 10pt);
+    font-weight: 200;
+}
+
 /*-----classes for responsive font-size-----  */
 .large_subtext {
     line-height: 1;
@@ -76,6 +89,7 @@ h3 {
 
 .light-text {
     color: var(--light);
+    scale: 1;
 }
 
 .medium-text {
