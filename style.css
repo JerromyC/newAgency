@@ -122,6 +122,17 @@ footer {
   overflow: visible;
 }
 
+#canvasMain {
+  position: absolute;
+  top: 20%;
+  left: 60%;
+  transform: translateX(-60%);
+  margin: auto;
+  width: clamp(250px, 100%, 500px);
+  max-width: 250px;
+  color: var(--mainTwo);
+}
+
 #canvas01, #canvas02, #canvas03 {
   position: absolute;
   top: 0;
@@ -139,6 +150,14 @@ footer {
   left: 50%;
   width: clamp(40px, 100%, 750px);
   /* transform: translateY(-25%); */
+}
+
+#morphingPathMain {
+  margin: auto;
+}
+
+#morphingPathMain:hover {
+  fill: var(--light);
 }
 
 #morphingPath02 {
@@ -159,6 +178,17 @@ footer {
     padding: 10vh clamp(10px, 15vw, 300px);
     min-height:75vh;
   }
+
+  #canvasMain {
+    position: absolute;
+    top: 20%;
+    left: 55%;
+    transform: translateX(-55%);
+    margin-top: auto;
+    width: clamp(250px, 100%, 500px);
+    max-width: 250px;
+    color: var(--mainTwo);
+  }
 }
 
 @media screen and (min-width: 951px) {
@@ -174,5 +204,16 @@ footer {
   #main-getStarted {
     padding: 10vh clamp(10px, 15vw, 300px) 5vh;
     min-height:75vh;
+  }
+
+  #canvasMain {
+    position: absolute;
+    top: 20%;
+    left: 55%;
+    transform: translateX(-55%);
+    margin-top: auto;
+    width: clamp(250px, 100%, 500px);
+    max-width: 250px;
+    color: var(--mainTwo);
   }
 }
