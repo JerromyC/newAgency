@@ -1,0 +1,12 @@
+.wwd_fade-element, .op_fade-element, .wi_fade-element, .wwa_fade-element, .p_fade-element {
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+.wwd_fade-stagger-element, .op_fade-stagger-element, .wi_fade-stagger-element{
+    opacity: 0;
+}
+
+.op_fade-stagger-element {
+    transform: translateY(50px);
+}

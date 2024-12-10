@@ -13,6 +13,8 @@
 @import url(./styles/refined-styles/background.css);
 @import url(./styles/timeline.css);
 
+@import url(./styles/refined-styles/animation-defaults.css);
+
 /* Mobile-first CSS */
 * {
   box-sizing: border-box;
@@ -117,6 +119,7 @@ footer {
   width: clamp(30px, 80vw, 450px);
   height: clamp(30px, 80vw, 450px);;
   margin: 24px auto;
+  overflow: visible;
 }
 
 #canvas01, #canvas02, #canvas03 {
@@ -124,11 +127,18 @@ footer {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: clamp(30px, 100%, 450px);
+  width: clamp(30px, 80%, 450px);
+}
+
+#canvas02 {
+  z-index: 10;
 }
 
 #canvas03 {
-  width: clamp(40px, 100%, 550px);
+  top: -10%;
+  left: 50%;
+  width: clamp(40px, 100%, 750px);
+  /* transform: translateY(-25%); */
 }
 
 #morphingPath02 {
@@ -138,7 +148,6 @@ footer {
 
 .imagePattern img {
   background-size: fill;
-  background-position: left;
 }
 
 @media screen and (min-width: 600px) and (max-width: 950px) {
