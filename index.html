@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="./style.css">
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@svgdotjs/svg.js@3.1/dist/svg.min.js"></script>
+
 </head>
 
 <body>
@@ -1169,7 +1171,24 @@
       six years of formal education in web design, digital marketing, and business administration. I started this
       business to provide high-quality web solutions (and keep the lights on), and with after 5+ years in the industry and hundreds of websites built,
       I’ve developed skills and methods that consistently deliver quality work and outstanding results.</p>
-    <img class="who-we-are_img" src="./assets/face.svg" alt="">
+    <!-- <img class="who-we-are_img" src="./assets/face.svg" alt=""> -->
+     <div class="who-we-are_image-wrapper">
+      <svg id="canvas01" viewBox="0 0 405 405">
+        <path id="morphingPath01" d="M202.5,403.27968207362574C253.82346809376673,405.2847064465466,296.75528958938105,369.39287007803875,333.00534016252243,333.00534016252243C369.1678012252894,296.7057319430766,403.7002025284175,253.72494368718037,402.52109640656266,202.5C401.35957773016247,152.0391231650877,362.82253025956607,113.55882887114913,327.13252513845,77.8674748615501C291.44156128934316,42.17516208772563,252.856175865617,5.941451057754192,202.50000000000006,2.4713438816252165C149.26275213308105,-1.1973015761505694,97.32885886982159,21.862294597264196,59.4190004233859,59.41900042338586C21.335486617433354,97.14774390725077,-3.9434998821974827,149.08412670730792,0.5904375962563715,202.49999999999994C4.853917951736378,252.72952511728573,46.062812221198016,287.64676131931515,81.80804010453218,323.19195989546773C117.39901514118793,358.5837688196081,152.345652366178,401.3203310564646,202.5,403.27968207362574" fill="#822222" />
+      </svg>
+      <svg id="canvas02" viewBox="0 0 405 405">
+        <defs>
+          <!-- Define the image as a pattern -->
+          <pattern id="imagePattern" patternUnits="userSpaceOnUse" width="405" height="405">
+            <image href="./assets/jerromy.svg" x="0" y="0" />
+          </pattern>
+        </defs>
+        <path id="morphingPath02" d="M202.5,383.8408742591855C307.26943548127383,383.8408742591855,400.2095510886284,307.26943548127383,400.20955108862836,202.5C400.20955108862836,100.11792058529622,304.88207941470375,30.332074667676313,202.5,30.332074667676338C99.19285858373559,30.332074667676352,1.6600191436009293,99.19285858373553,1.6600191436009482,202.49999999999994C1.6600191436009546,308.1736007401382,96.82639925986174,383.8408742591855,202.5,383.8408742591855" fill="url(#imagePattern)" />
+      </svg>
+      <svg id="canvas03"  viewBox="0 0 405 405">
+        <path id="morphingPath03" d="M202.5,266.8554207847046C271.70493508982025,269.17240554903026,359.1647407387704,325.35711829020386,390.365341396373,263.54114965920076C427.3795935581435,190.20692524341183,376.93187144944045,102.09207966190404,308.8970443020932,56.05703183102842C247.3953556069025,14.442563190857584,167.2895158793237,27.72573812685158,108.07104418643135,72.52969244923274C52.57222408036996,114.51940494761305,19.31701961855852,189.54220470285506,49.73368576252819,252.13678441666005C74.4533791124191,303.00754088177416,145.97287881545128,264.9628898779738,202.5,266.8554207847046" fill="none" stroke="black" />
+      </svg>
+    </div>
     <h3 class="who-we-are_h3">Jerromy <span class="medium-text">Chance</span></h3>
     <p class="who-we-are_p centered_who-we-are_p">Web designer/developer</p>
 
@@ -1287,6 +1306,8 @@
     <p>&copy; 2024 Your Company Name. All rights reserved.</p>
   </footer>
   <script src="./gsap.js"></script>
+  <script src="./svg.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/3.2.4/svg.min.js" integrity="sha512-ovlWyhrYXr3HEkGJI5YPXIFYIbHEKs2yfemKVVIIQe9U74tXyTuVdzMlvZlw/0X5lnIDRgtVlckrkeuCrDpq4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 
 </html>

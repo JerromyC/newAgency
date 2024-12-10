@@ -1,4 +1,3 @@
-
 // --------------------Calendly interation ---------------------------------
 function setVh() {
     let vh = window.innerHeight * 0.01;

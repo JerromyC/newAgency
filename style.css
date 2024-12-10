@@ -108,6 +108,39 @@ footer {
   height: auto;
 }
 
+
+.who-we-are_image-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: clamp(30px, 80vw, 450px);
+  height: clamp(30px, 80vw, 450px);;
+  margin: 24px auto;
+}
+
+#canvas01, #canvas02, #canvas03 {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: clamp(30px, 100%, 450px);
+}
+
+#canvas03 {
+  width: clamp(40px, 100%, 550px);
+}
+
+#morphingPath02 {
+  border: 2px solid black;
+  background-color: #000000;
+}
+
+.imagePattern img {
+  background-size: fill;
+  background-position: left;
+}
+
 @media screen and (min-width: 600px) and (max-width: 950px) {
   .section-light {
     padding: clamp( 50px, 20vh, 150px) clamp(10px, 5vw, 100px);
