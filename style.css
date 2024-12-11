@@ -132,9 +132,9 @@ footer {
 
 #canvasMain {
   position: absolute;
-  top: 10%;
-  left: 60%;
-  transform: translateX(-60%);
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
   margin: auto;
   width: clamp(250px, 100%, 500px);
   max-width: 250px;
@@ -165,10 +165,6 @@ footer {
   /* transform: translateY(-25%); */
 }
 
-#morphingPathMain:hover {
-  fill: var(--light);
-}
-
 #morphingPath02 {
   border: 2px solid black;
   background-color: #000000;
@@ -186,17 +182,6 @@ footer {
   #main-getStarted {
     padding: 10vh clamp(10px, 15vw, 300px);
     min-height:75vh;
-  }
-
-  #canvasMain {
-    position: absolute;
-    top: 20%;
-    left: 55%;
-    transform: translateX(-55%);
-    margin-top: auto;
-    width: clamp(250px, 100%, 500px);
-    max-width: 250px;
-    color: var(--mainTwo);
   }
 }
 
@@ -217,16 +202,5 @@ footer {
 
   #schedule h1 {
     margin-bottom: 16px;
-  }
-
-  #canvasMain {
-    position: absolute;
-    top: 20%;
-    left: 55%;
-    transform: translateX(-55%);
-    margin-top: auto;
-    width: clamp(250px, 100%, 500px);
-    max-width: 250px;
-    color: var(--mainTwo);
   }
 }
