@@ -1,3 +1,9 @@
+window.addEventListener('load', function () {
+  // Use replaceState to remove the hash from the URL without reloading the page
+  window.history.replaceState({}, '', window.location.href.split('#')[0]);
+});
+
+
 // --------------------Calendly interation ---------------------------------
 function setVh() {
     let vh = window.innerHeight * 0.01;
