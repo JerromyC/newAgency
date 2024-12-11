@@ -70,6 +70,14 @@ body {
   text-align: center;
 }
 
+#schedule {
+  padding-top: 150px;
+}
+
+#schedule h1 {
+  margin-bottom: 32px;
+}
+
 .who-we-are_img {
   width: 100%;
   max-width: 400px;
@@ -124,13 +132,18 @@ footer {
 
 #canvasMain {
   position: absolute;
-  top: 20%;
+  top: 10%;
   left: 60%;
   transform: translateX(-60%);
   margin: auto;
   width: clamp(250px, 100%, 500px);
   max-width: 250px;
   color: var(--mainTwo);
+}
+
+#morphingPathMain {
+  margin: auto;
+  width: 100%;
 }
 
 #canvas01, #canvas02, #canvas03 {
@@ -150,10 +163,6 @@ footer {
   left: 50%;
   width: clamp(40px, 100%, 750px);
   /* transform: translateY(-25%); */
-}
-
-#morphingPathMain {
-  margin: auto;
 }
 
 #morphingPathMain:hover {
@@ -204,6 +213,10 @@ footer {
   #main-getStarted {
     padding: 10vh clamp(10px, 15vw, 300px) 5vh;
     min-height:75vh;
+  }
+
+  #schedule h1 {
+    margin-bottom: 16px;
   }
 
   #canvasMain {

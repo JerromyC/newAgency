@@ -13,7 +13,7 @@ function setVh() {
 
   // Initialize the Calendly inline widget
   Calendly.initInlineWidget({
-    url: 'https://calendly.com/norwalldesign/norwall-design-onboarding-meeting',
+    url: 'https://calendly.com/jerromy-chance/onboarding-meeting',
     parentElement: document.getElementById('calendly-inline-widget'),
     // Ensure you use inline styles
     inlineStyles: true,
