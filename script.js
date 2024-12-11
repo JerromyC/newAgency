@@ -1,3 +1,16 @@
+window.addEventListener('load', function () {
+  // Check if there's a hash in the URL
+  if (window.location.hash && window.location.hash !== '#hero') {
+    // Remove the hash and redirect to the #hero section
+    window.history.replaceState(null, null, ' ');
+    const heroSection = document.querySelector('#hero');
+    if (heroSection) {
+      heroSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }
+});
+
+
 // --------------------Calendly interation ---------------------------------
 function setVh() {
     let vh = window.innerHeight * 0.01;

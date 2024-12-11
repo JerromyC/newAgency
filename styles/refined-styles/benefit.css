@@ -2,8 +2,7 @@
 
 .benefit-wrapper {
     margin: auto;
-    margin-top: 50px;
-    max-width: 1000px;
+    width: 100%;
 }
 
 .benefit-wrapper_inner {
