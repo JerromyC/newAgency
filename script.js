@@ -1,13 +1,6 @@
 window.addEventListener('load', function () {
-  // Check if there's a hash in the URL
-  if (window.location.hash && window.location.hash !== '#hero') {
-    // Remove the hash and redirect to the #hero section
-    window.history.replaceState(null, null, ' ');
-    const heroSection = document.querySelector('#hero');
-    if (heroSection) {
-      heroSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
-  }
+  // Use replaceState to remove the hash from the URL without reloading the page
+  window.history.replaceState({}, '', window.location.href.split('#')[0]);
 });
 
 
