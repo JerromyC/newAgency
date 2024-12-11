@@ -70,6 +70,14 @@ body {
   text-align: center;
 }
 
+#schedule {
+  padding-top: 150px;
+}
+
+#schedule h1 {
+  margin-bottom: 32px;
+}
+
 .who-we-are_img {
   width: 100%;
   max-width: 400px;
@@ -125,12 +133,17 @@ footer {
 #canvasMain {
   position: absolute;
   top: 20%;
-  left: 60%;
-  transform: translateX(-60%);
+  left: 50%;
+  transform: translateX(-50%);
   margin: auto;
   width: clamp(250px, 100%, 500px);
   max-width: 250px;
   color: var(--mainTwo);
+}
+
+#morphingPathMain {
+  margin: auto;
+  width: 100%;
 }
 
 #canvas01, #canvas02, #canvas03 {
@@ -152,14 +165,6 @@ footer {
   /* transform: translateY(-25%); */
 }
 
-#morphingPathMain {
-  margin: auto;
-}
-
-#morphingPathMain:hover {
-  fill: var(--light);
-}
-
 #morphingPath02 {
   border: 2px solid black;
   background-color: #000000;
@@ -178,17 +183,6 @@ footer {
     padding: 10vh clamp(10px, 15vw, 300px);
     min-height:75vh;
   }
-
-  #canvasMain {
-    position: absolute;
-    top: 20%;
-    left: 55%;
-    transform: translateX(-55%);
-    margin-top: auto;
-    width: clamp(250px, 100%, 500px);
-    max-width: 250px;
-    color: var(--mainTwo);
-  }
 }
 
 @media screen and (min-width: 951px) {
@@ -206,14 +200,7 @@ footer {
     min-height:75vh;
   }
 
-  #canvasMain {
-    position: absolute;
-    top: 20%;
-    left: 55%;
-    transform: translateX(-55%);
-    margin-top: auto;
-    width: clamp(250px, 100%, 500px);
-    max-width: 250px;
-    color: var(--mainTwo);
+  #schedule h1 {
+    margin-bottom: 16px;
   }
 }
