@@ -96,6 +96,7 @@ body {
 .who-we-are_p {
   max-width: 475px;
   margin: auto;
+  margin-bottom: 8px;
   text-align: left;
 }
 
@@ -129,7 +130,7 @@ footer {
   align-items: center;
   position: relative;
   width: clamp(30px, 80vw, 450px);
-  height: clamp(30px, 80vw, 450px);;
+  height: clamp(30px, 80vw, 375px);
   margin: 24px auto;
   overflow: visible;
 }
