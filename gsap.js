@@ -38,8 +38,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
 document.addEventListener("DOMContentLoaded", () => {
     const words = [
+        "New Businesses",
         "Restaurants",
+        "Start-Ups",
         "Roofers",
+        "Non-profits",
         "Authors",
         "Online Stores",
         "Game Shops",

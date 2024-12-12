@@ -4,8 +4,13 @@
     grid-template-rows: auto;
     width: auto;
     max-width: 400px;
-    margin: 75px auto 5vw;
+    margin: 32px auto 0px;
     /* height: 10%; */
+  }
+
+  #hero .grid {
+    margin-top: 80px;
+    margin-bottom: 32px auto;
   }
 
   .grid-wide {
@@ -32,6 +37,12 @@
      margin-top: 16px;
   }
 
+  .centered-cell {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
   @media screen and (min-width: 750px) {
     .grid {
       display: grid;
@@ -39,8 +50,13 @@
       grid-template-rows: auto;
       width: auto;
       max-width: 750px;
-      margin: 7.5vw auto;
+      margin: 16px auto;
 
+    }
+
+    #hero .grid {
+      margin-top: 120px;
+      margin-bottom: 32px auto;
     }
 
     .full-width-cell {

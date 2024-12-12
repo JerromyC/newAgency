@@ -94,8 +94,8 @@ body {
 }
 
 .who-we-are_p {
-  max-width: 475px;
-  margin: auto;
+  max-width: 475;
+  margin-top: 0px;
   margin-bottom: 8px;
   text-align: left;
 }
