@@ -37,6 +37,40 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 document.addEventListener("DOMContentLoaded", () => {
+    const words = [
+        "New Businesses",
+        "Restaurants",
+        "Start-Ups",
+        "Roofers",
+        "Non-profits",
+        "Authors",
+        "Online Stores",
+        "Game Shops",
+        "Tattoo Artists",
+        "Plumbers",
+        "Electricians",
+        "Every Business"
+    ];
+
+    const word2 = document.getElementById("word2");
+    let index = 0;
+
+    const timeline = gsap.timeline({ repeat: -1, defaults: { duration: 1, ease: "power1.Out" } });
+
+    function updateWord() {
+        index = (index + 1) % words.length; // Cycle through words
+        word2.innerText = words[index];
+    }
+
+    // Define the timeline
+    timeline
+        .to(word2, { opacity: 0, onComplete: updateWord }) // Slide out and fade the current word
+        .set(word2, { opacity: 0 }) // fade word out
+        .to(word2, { opacity: 1 }) // fade the new word in
+        .to({}, { duration: 2 });
+});
+
+document.addEventListener("DOMContentLoaded", () => {
     // first text fade up
     const fadeInUp = (target) => {
         return gsap.to(
