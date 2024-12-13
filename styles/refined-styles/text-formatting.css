@@ -26,7 +26,7 @@ h2 {
 }
 
 h3 {
-    margin: 0;
+    margin: 16px auto 8px auto;
 }
 
 .topper {
@@ -71,6 +71,15 @@ h3 {
 .scaling-pararaph {
     font-size: 12pt;
     text-align: left;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.scaling-pararaph-centered {
+    font-size: 12pt;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 8px;
 }
 
 .scaling-pararaph_main {

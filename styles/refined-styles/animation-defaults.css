@@ -10,3 +10,53 @@
 .op_fade-stagger-element {
     transform: translateY(50px);
 }
+
+
+/* animated svg styles */
+#canvasMain {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: auto;
+    width: clamp(250px, 100%, 500px);
+    max-width: 250px;
+    color: var(--mainTwo);
+  }
+  
+  #morphingPathMain {
+    margin: auto;
+    width: 100%;
+  }
+  
+  svg, path {
+    pointer-events: all; /* Ensure pointer events are enabled */
+  }
+  
+  #canvas01, #canvas02, #canvas03 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: clamp(30px, 80%, 450px);
+  }
+  
+  #canvas02 {
+    z-index: 10;
+  }
+  
+  #canvas03 {
+    top: -10%;
+    left: 50%;
+    width: clamp(40px, 100%, 750px);
+    /* transform: translateY(-25%); */
+  }
+  
+  #morphingPath02 {
+    border: 2px solid black;
+    background-color: #000000;
+  }
+  
+  .imagePattern img {
+    background-size: fill;
+  }

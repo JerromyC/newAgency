@@ -5,9 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Your Website</title>
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="affordable web design, web development, SEO services, small business support, freelance web designer, graphic design" />
+
+
+  <title>Chance Web Studio - Home</title>
+  <meta name="description" content="Affordable, high-quality web design, development, SEO, and graphic design services tailored for small businesses. Let me help you grow your business with custom solutions that fit your budget." />
+  
   <link rel="stylesheet" href="./style.css">
-  <script src="./script.js"></script>
 
   <!-- gsap -->
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
@@ -16,6 +21,25 @@
   <!-- svg.js -->
   <script src="https://cdn.jsdelivr.net/npm/@svgdotjs/svg.js@3.1/dist/svg.min.js"></script>
 
+  <!-- schema -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "Jerromy Chance",
+      "url": "chancewebstudio.netlify.app",
+      "description": "Affordable web design, development, SEO, and support for small businesses.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Irvington",
+        "addressRegion": "Alabama",
+        "postalCode": "36544",
+        "addressCountry": "United States of America"
+      },
+      "telephone": "251-295-2962",
+      "email": "norwalldesign@gmail.com",
+    }
+    </script>
 </head>
 
 <body>
@@ -1189,22 +1213,24 @@
   <section id="who-we-are" class="section section-light section-centeredText">
     <span class="topper wwa_fade-element">Who I Am</span>
     <h2 class="wwa_fade-element"><span class="medium-text">Web Expert</span> + <br>Stay-at-Home Dad</h2>
-    <div class="grid">
+    <div class="grid wwa_fade-element">
       <div class="grid-cell centered-cell">
-        <p class="who-we-are_p scaling-pararaph wwa_fade-element">Hi, I’m Jerromy!</p>
-        <p class="who-we-are_p scaling-pararaph wwa_fade-element">With over six years of formal education in web design,
+        <p class="scaling-pararaph">Hi, I’m Jerromy!</p>
+        <p class="scaling-pararaph">With over six years of formal education in web design,
           digital marketing, and business administration, I bring a diverse skill set to every project.
         </p>
-        <p class="who-we-are_p scaling-pararaph wwa_fade-element">After more than five years in the industry and
+        <p class="scaling-pararaph">After more than five years in the industry and
           hundreds of websites built, I’ve honed proven strategies that deliver exceptional results.</p>
-        <p class="who-we-are_p scaling-pararaph wwa_fade-element">I started this business to create high-quality web
+        <p class="scaling-pararaph">I started this business to create high-quality web
           solutions and support my family—I’m passionate about helping businesses like yours succeed so you can do the
           same.</p>
-        <p class="who-we-are_p scaling-pararaph wwa_fade-element"><span class="medium-text">I can't wait to work
+        <p class="scaling-pararaph"><span class="medium-text">I can't wait to work
             together!</span></p>
+            <h3>Jerromy <span class="medium-text">Chance</span></h3>
+            <p class="scaling-pararaph-centered">Web designer/developer</p>
       </div>
       <div class="grid-cell">
-        <div class="who-we-are_image-wrapper wwa_fade-element">
+        <div class="grid_image-wrapper wwa_fade-element">
           <svg id="canvas01" viewBox="0 0 405 405">
             <path id="morphingPath01"
               d="M202.5,403.27968207362574C253.82346809376673,405.2847064465466,296.75528958938105,369.39287007803875,333.00534016252243,333.00534016252243C369.1678012252894,296.7057319430766,403.7002025284175,253.72494368718037,402.52109640656266,202.5C401.35957773016247,152.0391231650877,362.82253025956607,113.55882887114913,327.13252513845,77.8674748615501C291.44156128934316,42.17516208772563,252.856175865617,5.941451057754192,202.50000000000006,2.4713438816252165C149.26275213308105,-1.1973015761505694,97.32885886982159,21.862294597264196,59.4190004233859,59.41900042338586C21.335486617433354,97.14774390725077,-3.9434998821974827,149.08412670730792,0.5904375962563715,202.49999999999994C4.853917951736378,252.72952511728573,46.062812221198016,287.64676131931515,81.80804010453218,323.19195989546773C117.39901514118793,358.5837688196081,152.345652366178,401.3203310564646,202.5,403.27968207362574"
@@ -1229,8 +1255,6 @@
         </div>
       </div>
     </div>
-    <h3 class="who-we-are_h3">Jerromy <span class="medium-text">Chance</span></h3>
-        <p class="who-we-are_p centered_who-we-are_p">Web designer/developer</p>
 
 
     <!-- <img class="who-we-are_img" src="./assets/face.svg" alt=""> -->
@@ -1348,13 +1372,10 @@
 
   <footer>
     <p>&copy; 2024 Chance Web Studio. All rights reserved.</p>
-    <a href="https://lordicon.com/">Icons by Lordicon.com</a>
   </footer>
-  <script src="./gsap.js"></script>
-  <script src="./svg.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/3.2.4/svg.min.js"
-    integrity="sha512-ovlWyhrYXr3HEkGJI5YPXIFYIbHEKs2yfemKVVIIQe9U74tXyTuVdzMlvZlw/0X5lnIDRgtVlckrkeuCrDpq4Q=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./scripts/gsap.js"></script>
+  <script src="./scripts/svg.js"></script>
+  <script src="./scripts/script.js"></script>
 </body>
 
 </html>
