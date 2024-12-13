@@ -43,6 +43,17 @@
     justify-content: center;
   }
 
+  .grid_image-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: clamp(30px, 80vw, 450px);
+    height: clamp(30px, 80vw, 375px);
+    margin: 24px auto;
+    overflow: visible;
+  }
+
   @media screen and (min-width: 750px) {
     .grid {
       display: grid;

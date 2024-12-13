@@ -2,9 +2,7 @@
 @import url(./styles/refined-styles/text-formatting.css);
 @import url(./styles/refined-styles/tile-styles.css);
 @import url(./styles/refined-styles/grid.css);
-@import url(./styles/refined-styles/benefit.css);
 @import url(./styles/refined-styles/vortex.css);
-@import url(./styles/refined-styles/button.css);
 @import url(./styles/refined-styles/form.css);
   
 
@@ -82,28 +80,6 @@ body {
   margin-bottom: 32px;
 }
 
-.who-we-are_img {
-  width: 100%;
-  max-width: 400px;
-  margin: auto;
-}
-
-.who-we-are_h3 {
-  margin: auto;
-  text-align: center;
-}
-
-.who-we-are_p {
-  max-width: 475;
-  margin-top: 0px;
-  margin-bottom: 8px;
-  text-align: left;
-}
-
-.centered_who-we-are_p {
-  text-align: center;
-}
-
 #calendly-inline-widget {
   min-height: 700px;
 }
@@ -123,64 +99,14 @@ footer {
   height: auto;
 }
 
-
-.who-we-are_image-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-  width: clamp(30px, 80vw, 450px);
-  height: clamp(30px, 80vw, 375px);
-  margin: 24px auto;
-  overflow: visible;
-}
-
-#canvasMain {
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translateX(-50%);
-  margin: auto;
-  width: clamp(250px, 100%, 500px);
-  max-width: 250px;
-  color: var(--mainTwo);
-}
-
-#morphingPathMain {
-  margin: auto;
+.who-we-are_img {
   width: 100%;
+  max-width: 400px;
+  margin: auto;
 }
 
-svg, path {
-  pointer-events: all; /* Ensure pointer events are enabled */
-}
-
-#canvas01, #canvas02, #canvas03 {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: clamp(30px, 80%, 450px);
-}
-
-#canvas02 {
-  z-index: 10;
-}
-
-#canvas03 {
-  top: -10%;
-  left: 50%;
-  width: clamp(40px, 100%, 750px);
-  /* transform: translateY(-25%); */
-}
-
-#morphingPath02 {
-  border: 2px solid black;
-  background-color: #000000;
-}
-
-.imagePattern img {
-  background-size: fill;
+#communication {
+  width: 50%;
 }
 
 @media screen and (min-width: 600px) and (max-width: 950px) {
