@@ -3,6 +3,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 0px 10vw;
 }
 
 .tile {
@@ -13,7 +14,7 @@
     align-items: center;
     transform-origin: center;
     height: auto;
-    width: auto;
+    width: clamp(250px, 20vw, 400px);
     max-width: 300px;
     margin: 8px;
     padding: clamp(20px, 2vw, 50px);
@@ -417,9 +418,23 @@ button:hover span{
     }
 } 
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1300px) and (max-width: 1599) {
     .tile-wrapper {
-        max-width: 90%;
+        max-width: 60%;
+        padding: 0px 10vw;
         margin: auto;
     }
 } 
+
+@media screen and (min-width: 1600px) {
+    .tile-wrapper {
+        max-width: 100%;
+        margin: auto;
+        padding: 0px 15vw;
+    }
+
+    .tile {
+        /* max-width: 400px; */
+    margin: 16px;
+    }
+}
