@@ -21,6 +21,10 @@ h2 {
     line-height: 1;
 }
 
+#who-we-are h2 {
+    margin: 32px auto 0px auto;
+}
+
 #timeline h2 {
     margin-top: 50px;
 }

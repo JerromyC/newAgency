@@ -109,6 +109,11 @@ footer {
   width: 50%;
 }
 
+._cUP1np9gMvFQrcPftuf.xahN8AEzyAvQtVj17TPv {
+  margin-top: -32px;
+  margin-bottom: 16px;
+}
+
 @media screen and (min-width: 600px) and (max-width: 950px) {
   .section-light {
     padding: clamp( 50px, 20vh, 150px) clamp(10px, 5vw, 100px);
