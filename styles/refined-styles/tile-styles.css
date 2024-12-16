@@ -457,7 +457,23 @@ button:hover span{
 }
 } 
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1300px) and (max-width: 1699px) {
+    .tile-wrapper {
+        max-width: 90%;
+        margin: auto;
+    }
+
+    .price-tile {
+        width: 30%;
+        max-width: 400px;
+    }
+
+    #whats-included .tile-wrapper {
+        padding: 0px 5vw;
+    }
+} 
+
+@media screen and (min-width: 1700px) {
     .tile-wrapper {
         max-width: 90%;
         margin: auto;
