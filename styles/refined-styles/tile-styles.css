@@ -172,6 +172,8 @@
 
 .no-benefit img {
     opacity: 25%;
+    width: 20%;
+    height: auto;
 }
 
 .benefit-subtext {
