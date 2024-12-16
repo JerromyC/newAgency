@@ -1335,6 +1335,19 @@
     <script src="./scripts/script.js"></script>
     <script src="./scripts/gsap.js" defer></script>
     <script src="./scripts/svg.js" defer></script>
+    <script> //lazy-loading
+      document.addEventListener("DOMContentLoaded", () => {
+        // Select all image elements in the DOM
+        const images = document.querySelectorAll("img");
+    
+        // Iterate through each image and add the loading="lazy" attribute
+        images.forEach((img) => {
+            if (!img.hasAttribute("loading")) { // Check if the attribute is already set
+                img.setAttribute("loading", "lazy");
+            }
+        });
+    });
+    </script>
 </body>
 
 </html>

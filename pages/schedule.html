@@ -8,7 +8,6 @@
     <title>Your Website</title>
     <link rel="stylesheet" href="../style.css">
     <link rel="preload" href="https://assets.calendly.com/assets/external/widget.js" as="script">
-    <script src="https://assets.calendly.com/assets/external/widget.js"></script>
 </head>
 
 <body>
@@ -276,9 +275,10 @@
     <footer>
         <p>&copy; 2024 Chance Web Studio. All rights reserved.</p>
     </footer>
-    <script type="text/javascript" src="../scripts/script.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-    <script>
+    <script type="text/javascript" src="../scripts/script.js" defer></script>
+    <script src="https://assets.calendly.com/assets/external/widget.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" ></script>
+    <script defer>
 
         emailjs.init("k_7UvtB0Qxu7me9R_");
 
