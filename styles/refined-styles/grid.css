@@ -54,13 +54,13 @@
     overflow: visible;
   }
 
-  @media screen and (min-width: 750px) {
+  @media screen and (min-width: 801px) and (max-width: 1599px) {
     .grid {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: auto;
       width: auto;
-      max-width: 750px;
+      max-width: 80%;
       margin: 16px auto;
 
     }
@@ -79,5 +79,37 @@
       flex-direction: column;
       justify-content: flex-end;
       align-items: center;
+    }
+  }
+
+  @media screen and (min-width: 1600px) {
+    .grid {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: auto;
+      width: auto;
+      max-width: 70%;
+      margin: 16px auto;
+    }
+
+    #hero .grid {
+      margin-top: 10%;
+      max-width: 70%;
+      margin-bottom: 32px auto;
+    }
+
+    #who-we-are .grid {
+      max-width: 50%;
+
+    }
+
+    .flex-cell {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+    }
+
+    .full-width-cell {
+      grid-column: 1/3;
     }
   }
