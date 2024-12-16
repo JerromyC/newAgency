@@ -22,7 +22,8 @@
     <section id="schedule" class="section section-dark section-centeredText">
         <span class="topper">Getting Started</span>
         <h1>Schedule a<span class="light-text"> Meeting</span></h1>
-        <p class="scaling-paragrap-centered">If you prefer to communicate over email or text only, please fill out the form <a class="light-text" href="#contact-form">here</a></p>
+        <p class="scaling-paragrap-centered">If you prefer to communicate over email or text only, please fill out the
+            form <a class="light-text" href="#contact-form">here</a></p>
 
         <div id="calendly-inline-widget"></div>
 
@@ -30,6 +31,10 @@
                 class="light-text" href="https://calendly.com/jerromy-chance/onboarding-meeting">this
                 link</a> to schedule</em></p>
         <a href="../index.html">
+
+            <a href="../index.html">
+                <img class="logo-img" src="../assets/logo.svg" alt="Chance web studio logo">
+            </a>
 
         </a>
         <div class="background-overlay background-overlay_dark"></div>
@@ -235,7 +240,7 @@
         </ul>
     </section>
 
-    <section id="contact-form" class="section section-dark section-centeredText">
+    <section id="contact" class="section section-dark section-centeredText">
         <span class="topper">If you need anything at all,</span>
         <h2>Fill out the <span class="light-text">form below</span></h2>
         <p class="scaling-pararaph scaling-pararaph_main">I am here to help in any way possible.</p>
@@ -266,13 +271,36 @@
                 </select>
 
                 <input class="button form-button" type="submit" value="Submit">
-                </form>
+            </form>
     </section>
     <footer>
         <p>&copy; 2024 Chance Web Studio. All rights reserved.</p>
     </footer>
+    <script type="text/javascript" src="../scripts/script.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-    <script type="text/javascript" src="../script.js"></script>
+    <script>
+
+        emailjs.init("k_7UvtB0Qxu7me9R_");
+
+        const form = document.getElementById('contact-form');
+        form.addEventListener('submit', (event) => {
+            event.preventDefault(); // Prevent default form submission behavior
+
+            // Collect form data
+            const formData = new FormData(form); // Explicitly reference the form
+            const formObject = Object.fromEntries(formData.entries());
+
+            // Send the email via EmailJS
+            emailjs.send("service_j8f1nms", "template_me", formObject)
+                .then((response) => {
+                    alert('Message sent successfully!');
+                    console.log('SUCCESS!', response.status, response.text);
+                }, (error) => {
+                    alert('Failed to send message. Please try again.');
+                    console.error('FAILED...', error);
+                });
+        });
+    </script>
 </body>
 
 </html>
