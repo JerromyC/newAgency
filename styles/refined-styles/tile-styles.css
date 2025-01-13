@@ -58,6 +58,7 @@
 .portfolio-image {
     width: 100%;
     margin: auto;
+    margin-top: 0px;
     margin-bottom: 25px;
 }
 

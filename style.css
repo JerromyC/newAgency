@@ -114,6 +114,20 @@ footer {
   margin-bottom: 16px;
 }
 
+/* calendly restyles */
+
+.iLlmw9nvWQp6MsANxMu_:not(.__vvZb7LMOdHKPoO4w_i):hover, 
+.iLlmw9nvWQp6MsANxMu_:not(.__vvZb7LMOdHKPoO4w_i):focus {
+  background-color: var(--medium, rgba(0, 105, 255, 0.15)) !important;
+  color: var(--medium) !important;
+}
+
+.iLlmw9nvWQp6MsANxMu_.XXKN9NWALj8Xe4ed0s7r {
+  background-color: var(--medium);
+  color: var(--medium);
+  font-weight: bold;
+}
+
 @media screen and (min-width: 600px) and (max-width: 950px) {
   .section-light {
     padding: clamp( 50px, 20vh, 150px) clamp(10px, 5vw, 100px);
